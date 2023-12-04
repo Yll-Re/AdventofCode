@@ -3,12 +3,12 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Main {
+public class day1part1 {
     public static void main(String[] args) {
         int sum = 0;
 
 
-        String filepath = "C:\\Users\\ylli_\\IdeaProjects\\AoCJ\\src\\Day1Input";
+        String filepath = "src/Day1Input";
 
         try (BufferedReader br = new BufferedReader (new FileReader(filepath))){
             String line;
@@ -17,6 +17,7 @@ public class Main {
                 int rightMost = -1;
                 System.out.println(line);
                 for (int i = 0; i < line.length(); i++){
+
                     if (Character.isDigit(line.charAt(i))){
                         if (leftMost==-1){
                             leftMost = Character.getNumericValue(line.charAt(i));
