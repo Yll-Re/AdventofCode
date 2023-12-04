@@ -8,7 +8,7 @@ public class Main {
         int sum = 0;
 
 
-        String filepath = "C:\\Users\\ylli_\\IdeaProjects\\AoCJ\\src\\Day1Input";
+        String filepath = "src/Day1Input";
 
         try (BufferedReader br = new BufferedReader (new FileReader(filepath))){
             String line;
