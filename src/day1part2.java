@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class day1part1and2 {
+public class day1part2 {
 
     public static String repWordNumb(String input){
         Map<String, String> numberWordMap = new HashMap<>();
